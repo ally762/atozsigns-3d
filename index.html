@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>A to Z Signs | Custom Sign Company in Houston, TX — Since 1972</title>
+  <meta name="description" content="A to Z Sign Company — Houston's custom sign makers since 1972. Channel letters, pylon & LED signs, monument signs, storefronts, vehicle graphics and window graphics. Design, permits, fabrication and installation." />
+  <meta name="theme-color" content="#05070d" />
+  <link rel="icon" href="https://atozsigns21.com/wp-content/uploads/2026/08/cropped-a2z_Logo-smaller-32x32.jpg" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@500;700;800;900&family=Manrope:wght@400;500;600;700&family=Yellowtail&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://unpkg.com/lenis@1.1.13/dist/lenis.css" />
+  <link rel="stylesheet" href="css/style.css" />
+
+  <script type="importmap">
+  {
+    "imports": {
+      "three": "https://cdn.jsdelivr.net/npm/three@0.160.0/build/three.module.js",
+      "three/addons/": "https://cdn.jsdelivr.net/npm/three@0.160.0/examples/jsm/"
+    }
+  }
+  </script>
+</head>
+<body>
+
+  <!-- Loader -->
+  <div id="loader" aria-hidden="true">
+    <div class="loader-inner">
+      <img src="https://atozsigns21.com/wp-content/uploads/2026/08/a2z_Logo-smaller.jpg" alt="" class="loader-logo" />
+      <div class="loader-bar"><span id="loader-fill"></span></div>
+      <p class="loader-text">Powering up the lights<span class="dots"></span></p>
+    </div>
+  </div>
+
+  <!-- 3D scene -->
+  <canvas id="scene" aria-hidden="true"></canvas>
+  <div class="vignette" aria-hidden="true"></div>
+  <div class="grain" aria-hidden="true"></div>
+
+  <!-- Nav -->
+  <header class="nav" id="nav">
+    <a href="#top" class="brand" aria-label="A to Z Signs home">
+      <span class="brand-badge"><img src="https://atozsigns21.com/wp-content/uploads/2026/08/a2z_Logo-smaller.jpg" alt="A to Z Signs logo" /></span>
+      <span class="brand-name">A to Z <em>Signs</em></span>
+    </a>
+    <nav class="nav-links" id="nav-links">
+      <a href="#services">Services</a>
+      <a href="#pylon">Showcase</a>
+      <a href="#process">Process</a>
+      <a href="#work">Our Work</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <div class="nav-cta">
+      <a href="tel:+17136454527" class="nav-phone">(713) 645-4527</a>
+      <a href="#contact" class="btn btn-red btn-sm">Free Quote</a>
+      <button class="burger" id="burger" aria-label="Open menu" aria-expanded="false"><span></span><span></span></button>
+    </div>
+  </header>
+
+  <main id="top">
+
+    <!-- 0 · HERO -->
+    <section class="stage hero" data-cam="hero">
+      <div class="hero-copy">
+        <p class="eyebrow" data-reveal><span class="dot"></span> Houston, TX &nbsp;·&nbsp; Since 1972</p>
+        <h1 class="hero-title" data-reveal>
+          <span class="line">Your name,</span>
+          <span class="line neon-script">in lights.</span>
+        </h1>
+        <p class="hero-sub" data-reveal>Channel letters, pylon &amp; LED signs, monument signs, storefronts and vehicle graphics. One Houston crew handles the design, permits, fabrication and installation.</p>
+        <div class="hero-actions" data-reveal>
+          <a href="#contact" class="btn btn-red">Get a Free Quote <span class="arrow">→</span></a>
+          <a href="#work" class="btn btn-ghost">See Our Work</a>
+        </div>
+        <ul class="hero-facts" data-reveal>
+          <li><strong>50+</strong><span>years making signs</span></li>
+          <li><strong>A→Z</strong><span>design to install</span></li>
+          <li><strong>8</strong><span>sign specialties</span></li>
+        </ul>
+      </div>
+      <div class="scroll-hint" aria-hidden="true"><span></span>Scroll to explore</div>
+    </section>
+
+    <!-- Marquee -->
+    <div class="marquee" aria-hidden="true">
+      <div class="marquee-track">
+        <span>Channel Letters</span><i>✦</i><span>Pylon Signs</span><i>✦</i><span>Monument Signs</span><i>✦</i><span>Storefront Signs</span><i>✦</i><span>LED Displays</span><i>✦</i><span>Vehicle Graphics</span><i>✦</i><span>Window Graphics</span><i>✦</i><span>Interior Signs</span><i>✦</i><span>Banners</span><i>✦</i>
+        <span>Channel Letters</span><i>✦</i><span>Pylon Signs</span><i>✦</i><span>Monument Signs</span><i>✦</i><span>Storefront Signs</span><i>✦</i><span>LED Displays</span><i>✦</i><span>Vehicle Graphics</span><i>✦</i><span>Window Graphics</span><i>✦</i><span>Interior Signs</span><i>✦</i><span>Banners</span><i>✦</i>
+      </div>
+    </div>
+
+    <!-- 1 · SERVICES -->
+    <section class="stage right" id="services" data-cam="services">
+      <div class="panel panel-wide" data-reveal>
+        <p class="kicker">What we build</p>
+        <h2 class="h2">Every sign, <span class="script-red">A to Z.</span></h2>
+        <p class="lead">From one storefront to a full commercial site, we make signs that stay bright, last in Texas weather and help people find your business.</p>
+        <div class="svc-grid">
+          <article class="svc"><span class="svc-n">01</span><h3>Channel Letters</h3><p>Illuminated 3D letters, front-lit, back-lit or halo-lit.</p></article>
+          <article class="svc"><span class="svc-n">02</span><h3>Pylon Signs</h3><p>Tall signs that drivers can see from the freeway.</p></article>
+          <article class="svc"><span class="svc-n">03</span><h3>Monument Signs</h3><p>Ground-level signs for plazas, offices and churches.</p></article>
+          <article class="svc"><span class="svc-n">04</span><h3>Storefront Signs</h3><p>Signs and cabinets that make your front door easy to spot.</p></article>
+          <article class="svc"><span class="svc-n">05</span><h3>Vehicle Graphics</h3><p>Full and partial wraps, fleet lettering and decals.</p></article>
+          <article class="svc"><span class="svc-n">06</span><h3>Window Graphics</h3><p>Vinyl for promotions, privacy, branding and seasonal displays.</p></article>
+          <article class="svc"><span class="svc-n">07</span><h3>Interior Signs</h3><p>Lobby logos, wayfinding and branded interior displays.</p></article>
+          <article class="svc"><span class="svc-n">08</span><h3>Banners &amp; Events</h3><p>Grand openings, sales, trade shows and event signs.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <!-- 2 · PYLON / LED -->
+    <section class="stage left" id="pylon" data-cam="pylon">
+      <div class="panel" data-reveal>
+        <p class="kicker"><span class="chip">02</span> Pylon &amp; LED Signs</p>
+        <h2 class="h2">Seen from the <span class="script-red">freeway.</span></h2>
+        <p class="lead">Drivers on a busy Houston road decide in seconds. Our pylon signs and LED message centers catch their eye from far away, day and night.</p>
+        <ul class="ticks">
+          <li>Engineered poles &amp; footings</li>
+          <li>Full-color &amp; single-color LED message boards</li>
+          <li>Tenant panels for multi-business plazas</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- 3 · MONUMENT -->
+    <section class="stage right" id="monument" data-cam="monument">
+      <div class="panel" data-reveal>
+        <p class="kicker"><span class="chip">03</span> Monument Signs</p>
+        <h2 class="h2">First impressions, <span class="script-red">set in stone.</span></h2>
+        <p class="lead">Solid, well-built signs at your entrance. They give medical offices, churches, schools and business parks a polished, permanent look.</p>
+        <ul class="ticks">
+          <li>Stone, stucco, brick &amp; aluminum builds</li>
+          <li>Dimensional &amp; halo-lit lettering</li>
+          <li>Landscape uplighting &amp; address numbers</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- 4 · VEHICLE -->
+    <section class="stage left" id="vehicle" data-cam="vehicle">
+      <div class="panel" data-reveal>
+        <p class="kicker"><span class="chip">05</span> Vehicle Graphics</p>
+        <h2 class="h2">A billboard that <span class="script-red">drives itself.</span></h2>
+        <p class="lead">Your truck is on the road every day. Turn it into advertising. We design, print and install wraps and fleet graphics that look sharp up close and are easy to read in traffic.</p>
+        <ul class="ticks">
+          <li>Full &amp; partial wraps</li>
+          <li>Fleet lettering &amp; DOT numbers</li>
+          <li>Cast vinyl rated for the Texas sun</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- 5 · PROCESS -->
+    <section class="stage center" id="process" data-cam="process">
+      <div class="process" data-reveal>
+        <p class="kicker">How it works</p>
+        <h2 class="h2">From sketch to <span class="script-red">switched on.</span></h2>
+        <ol class="steps">
+          <li class="step"><span class="step-n">01</span><h3>Consultation</h3><p>We visit your site, measure, and learn your goals, budget and timeline.</p></li>
+          <li class="step"><span class="step-n">02</span><h3>Design &amp; Permits</h3><p>Mock-ups on photos of your building, plus the city permits.</p></li>
+          <li class="step"><span class="step-n">03</span><h3>Production</h3><p>We fabricate your sign with quality materials built to last.</p></li>
+          <li class="step"><span class="step-n">04</span><h3>Installation</h3><p>Our own crew installs it, wires it up and turns it on. You're open for business.</p></li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- 6 · WORK -->
+    <section class="stage work" id="work" data-cam="work">
+      <div class="work-head" data-reveal>
+        <p class="kicker">Recent projects</p>
+        <h2 class="h2">Signs we've <span class="script-red">built.</span></h2>
+        <a class="btn btn-ghost btn-sm" href="https://atozsigns21.com/gallery" target="_blank" rel="noopener">Full gallery →</a>
+      </div>
+      <div class="work-rail" id="work-rail">
+        <figure class="tile"><img loading="lazy" src="https://atozsigns21.com/wp-content/gallery/our-work/17860184944815332350670565870126.jpg" alt="A to Z Signs project in Houston" /></figure>
+        <figure class="tile"><img loading="lazy" src="https://atozsigns21.com/wp-content/gallery/our-work/17860184841862713599914150656763.jpg" alt="A to Z Signs project in Houston" /></figure>
+        <figure class="tile"><img loading="lazy" src="https://atozsigns21.com/wp-content/gallery/our-work/17860185356183283827337071595379.jpg" alt="A to Z Signs project in Houston" /></figure>
+        <figure class="tile"><img loading="lazy" src="https://atozsigns21.com/wp-content/gallery/our-work/17860185060783856898093797137713.jpg" alt="A to Z Signs project in Houston" /></figure>
+        <figure class="tile"><img loading="lazy" src="https://atozsigns21.com/wp-content/gallery/our-work/17860185471051664729979100697808.jpg" alt="A to Z Signs project in Houston" /></figure>
+        <figure class="tile"><img loading="lazy" src="https://atozsigns21.com/wp-content/gallery/our-work/17860186640971055591120147440598.jpg" alt="A to Z Signs project in Houston" /></figure>
+        <figure class="tile"><img loading="lazy" src="https://atozsigns21.com/wp-content/gallery/our-work/17860187316156108810807007629637.jpg" alt="A to Z Signs storefront sign" /></figure>
+        <figure class="tile"><img loading="lazy" src="https://atozsigns21.com/wp-content/gallery/our-work/17860187911563290313524922363912.jpg" alt="A to Z Signs Houston sign" /></figure>
+      </div>
+    </section>
+
+    <!-- 7 · CONTACT -->
+    <section class="stage contact" id="contact" data-cam="contact">
+      <div class="contact-grid">
+        <div class="contact-copy" data-reveal>
+          <p class="kicker">Free quote</p>
+          <h2 class="h2">Let's make you <span class="script-red">impossible to miss.</span></h2>
+          <p class="lead">Tell us about your project. We'll reply with ideas, a timeline and a clear price.</p>
+          <ul class="contact-list">
+            <li><span>Call</span><a href="tel:+17136454527">(713) 645-4527</a></li>
+            <li><span>Email</span><a href="mailto:AtoZsigns21@gmail.com">AtoZsigns21@gmail.com</a></li>
+            <li><span>Visit</span><a href="https://maps.app.goo.gl/zW4k3pKmktdopHJd6" target="_blank" rel="noopener">3135 Golfcrest Blvd, Houston, TX 77087</a></li>
+            <li><span>Hours</span><p>Mon – Fri · 9 A.M. – 5 P.M.</p></li>
+          </ul>
+        </div>
+        <form class="panel quote" id="quote-form" data-reveal>
+          <h3>Request a free quote</h3>
+          <div class="row">
+            <label><span>Full name*</span><input name="name" required autocomplete="name" /></label>
+            <label><span>Phone</span><input name="phone" type="tel" autocomplete="tel" /></label>
+          </div>
+          <label><span>Email*</span><input name="email" type="email" required autocomplete="email" /></label>
+          <label><span>Service needed</span>
+            <select name="service">
+              <option>Channel Letters</option><option>Pylon / LED Sign</option><option>Monument Sign</option>
+              <option>Storefront Sign</option><option>Vehicle Graphics</option><option>Window Graphics</option>
+              <option>Interior Signs</option><option>Banners &amp; Displays</option><option>Other</option>
+            </select>
+          </label>
+          <label><span>Project details</span><textarea name="details" rows="4" placeholder="Size, location, timeline…"></textarea></label>
+          <button class="btn btn-red btn-block" type="submit">Send Request <span class="arrow">→</span></button>
+          <p class="form-note" id="form-note">Opens your email app with the details filled in.</p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="footer-inner">
+      <div class="footer-brand">
+        <span class="brand-badge lg"><img src="https://atozsigns21.com/wp-content/uploads/2026/08/a2z_Logo-smaller.jpg" alt="A to Z Signs logo" /></span>
+        <p>Houston's custom sign company since 1972.<br/>Design · Permitting · Fabrication · Installation</p>
+      </div>
+      <div class="footer-cols">
+        <div><h4>Signs</h4><a href="https://atozsigns21.com/channel-letter-signs/">Channel Letters</a><a href="https://atozsigns21.com/pylon-signs/">Pylon Signs</a><a href="https://atozsigns21.com/monument-signs/">Monument Signs</a><a href="https://atozsigns21.com/storefront-signs/">Storefront Signs</a></div>
+        <div><h4>More</h4><a href="https://atozsigns21.com/vehicle-signs/">Vehicle Signs</a><a href="https://atozsigns21.com/window-graphic/">Window Graphics</a><a href="https://atozsigns21.com/interior-signs/">Interior Signs</a><a href="https://atozsigns21.com/exterior-signs/">Exterior Signs</a></div>
+        <div><h4>Contact</h4><a href="tel:+17136454527">(713) 645-4527</a><a href="mailto:AtoZsigns21@gmail.com">AtoZsigns21@gmail.com</a><a href="https://maps.app.goo.gl/zW4k3pKmktdopHJd6" target="_blank" rel="noopener">3135 Golfcrest Blvd<br/>Houston, TX 77087</a></div>
+      </div>
+    </div>
+    <p class="copy">© <span id="year">2026</span> A to Z Signs 21. All rights reserved.</p>
+  </footer>
+
+  <script src="https://unpkg.com/lenis@1.1.13/dist/lenis.min.js"></script>
+  <script src="js/ui.js" defer></script>
+  <script type="module" src="js/scene.js"></script>
+</body>
+</html>
